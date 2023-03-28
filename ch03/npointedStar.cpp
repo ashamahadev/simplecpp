@@ -1,4 +1,10 @@
 #include <simplecpp>
+
+/**
+ * @author: ashamahadev
+ * this program draws n-pointed star where 
+ * n has to be odd number.
+*/
 main_program
 {
     turtleSim();
@@ -12,7 +18,7 @@ main_program
         forward(side);
         right(thetaAngle);
         forward(side);
-        wait(0.5);
+        wait(0);
     }
     wait(5);
 }
